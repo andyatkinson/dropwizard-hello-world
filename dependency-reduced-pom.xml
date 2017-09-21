@@ -19,6 +19,14 @@
             <goals>
               <goal>shade</goal>
             </goals>
+            <configuration>
+              <transformers>
+                <transformer />
+                <transformer>
+                  <mainClass>com.andyatkinson.helloworld.HelloWorldApplication</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
           </execution>
         </executions>
         <configuration>
@@ -49,6 +57,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <mainClass>${mainClass}</mainClass>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
           </archive>
         </configuration>
