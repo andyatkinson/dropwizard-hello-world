@@ -12,3 +12,9 @@ Deploying to Heroku
 ---
 
 1. `git push heroku master`
+
+
+Dropwizard config docs
+---
+
+https://github.com/dropwizard/dropwizard/blob/master/docs/source/manual/configuration.rst
