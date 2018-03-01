@@ -17,13 +17,13 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
 
     @Override
     public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
-        // nothing to do yet
+
+        // add the bundle
+        bootstrap.addBundle(new ExampleDropwizardBundle<>());
     }
 
     @Override
     public void run(HelloWorldConfiguration configuration, Environment environment) {
-        // application entry point
-
         final HelloWorldResource resource = new HelloWorldResource(
                 configuration.getTemplate(),
                 configuration.getDefaultName()
