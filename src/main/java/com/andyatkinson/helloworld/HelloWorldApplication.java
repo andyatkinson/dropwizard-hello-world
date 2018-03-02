@@ -19,7 +19,7 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
     public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
 
         // add the bundle
-        bootstrap.addBundle(new ExampleDropwizardBundle<>());
+        bootstrap.addBundle(new ExampleBundle<>());
     }
 
     @Override
