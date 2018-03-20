@@ -22,3 +22,5 @@ https://github.com/dropwizard/dropwizard/blob/master/docs/source/manual/configur
 
 
 ## Dropwizard Bundles Intro presentation
+
+https://speakerdeck.com/andyatkinson/dropwizard-bundles
