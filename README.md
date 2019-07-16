@@ -1,4 +1,4 @@
-# HelloWorld
+# Hello World Dropwizard
 
 ## How to start the HelloWorld application
 
@@ -13,14 +13,14 @@ Or Run/Debug from IntelliJ as an Application, default port is 8080, admin port i
 
 1. `git push heroku master`
 
-Visit `https://fierce-beach-46584.herokuapp.com/hello-world?name=andy`
+Visit `https://hello-world-dropwizard.herokuapp.com/hello-world?name=andy`
 
 
-### Dropwizard config docs
+### Dropwizard Config Docs
 
-https://github.com/dropwizard/dropwizard/blob/master/docs/source/manual/configuration.rst
+  [Dropwizard Configuration](https://github.com/dropwizard/dropwizard/blob/master/docs/source/manual/configuration.rst)
 
 
-## Dropwizard Bundles Intro presentation
+### Dropwizard Bundles Intro presentation
 
-https://speakerdeck.com/andyatkinson/dropwizard-bundles
+  [Slides: Dropwizard Bundles](https://speakerdeck.com/andyatkinson/dropwizard-bundles)
